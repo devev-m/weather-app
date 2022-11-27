@@ -40,7 +40,6 @@ body {
    flex-direction: column;
 }
 
-
 // ======= Header =======
 .header {
    text-align: center;
@@ -67,28 +66,10 @@ body {
    }
 
    &__search-button {
-      position: relative;
       padding: 7px;
       border-radius: 5px;
       color: #7F669D;
       background: #fff;
-
-      &:before {
-         content: '';
-         position: absolute;
-         top: 0;
-         left: 0;
-         height: 100%;
-         width: 0;
-         background: #fff;
-         opacity: 0.3;
-         border-radius: 5px;
-         transition: all 2s ease;
-      }
-
-      &:hover:before {
-         width: 100%;
-      }
    }
 }
 
@@ -108,10 +89,8 @@ body {
    }
 }
 
-
 // ======= Main =======
 .weather-main {
-
    &__name {
       font-size: 50px;
       font-weight: 600;
@@ -122,7 +101,7 @@ body {
    &__inner {
       display: flex;
       justify-content: center;
-      padding: 30px 0 0;
+      padding: 20px 0 0;
    }
 
    &__img {
@@ -153,6 +132,11 @@ body {
    display: flex;
    justify-content: space-evenly;
    text-align: center;
+   padding: 0px 0px 30px 0px;
+
+   &__title{
+      font-weight: 600;
+   }
 
    &__item {
       padding: 0 10px 0;
@@ -170,15 +154,15 @@ body {
    .weather-main {
       &__name {
          font-size: 40px;
-         padding: 40px 0 0;
+         padding: 30px 0 0;
       }
 
       &__degree {
-         font-size: 130px;
+         font-size: 110px;
       }
 
       span {
-         font-size: 70px;
+         font-size: 60px;
       }
    }
 
@@ -195,11 +179,11 @@ body {
 @media (max-width: 400px) {
    .weather-main {
       &__degree {
-         font-size: 100px;
+         font-size: 90px;
       }
 
       span {
-         font-size: 60px;
+         font-size: 50px;
       }
 
       &__description {
