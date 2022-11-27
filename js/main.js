@@ -26,12 +26,13 @@ button.addEventListener('click', (e) => {
       let wind = Math.round(data.wind.speed);
       let windDeg = data.wind.deg;
       let windDirection = (windDeg >= 337.5 || windDeg <= 22.5) ? 'С' :
-         (windDeg > 22.5 & windDeg < 67.5) ? СВ :
+         (windDeg > 22.5 & windDeg < 67.5) ? 'СВ' :
          (windDeg >= 67.5 & windDeg <= 112.5) ? 'В' :
          (windDeg > 112.5 & windDeg < 157.5) ? 'ЮВ' :
          (windDeg >= 157.5 & windDeg <= 202.5) ? 'Ю' :
          (windDeg > 202.5 & windDeg < 247.5) ? 'ЮЗ' :
-         (windDeg >= 247.5 & windDeg <= 295.5) ? 'З' :'СЗ';
+         (windDeg >= 247.5 & windDeg <= 295.5) ? 'З' :
+         'СЗ';
       let humidity = data.main.humidity;
       let clouds = data.clouds.all;  
 
