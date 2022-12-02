@@ -5,4 +5,4 @@ Type the name of your sity and look the weather </br>
 ### Instruments
 - HTML
 - SCSS
-- JavaScript
+- JavaScript (API, async/await, fetch(URL))
