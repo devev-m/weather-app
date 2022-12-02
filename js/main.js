@@ -6,7 +6,7 @@ let main = document.querySelector('.main');
 button.addEventListener('click', (e) => {
    e.preventDefault();
    
-   let inputValue = inputText.value;
+   let inputValue = inputText.value.trim();
    let url = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=47d46eb07982f2a463216e329dda65cd&units=metric&lang=ru`;
 
    // Получение данных погоды через сетевой запрос
