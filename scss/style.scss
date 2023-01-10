@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 *,*::before,*::after {margin: 0;padding: 0;box-sizing: border-box;border: 0;}
-h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: inherit;}
 button {cursor: pointer;}
 body {
    font-family: 'Montserrat', sans-serif;
@@ -41,11 +40,6 @@ body {
       outline: none;
       padding: 7px 0 7px 10px;
       border-radius: 5px;
-      color: #7F669D;
-
-      &::placeholder {
-         color: #7F669D;
-      }
    }
    &__search-button {
       padding: 7px;

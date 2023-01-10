@@ -18,6 +18,7 @@ button.addEventListener('click', (e) => {
       // Обнуление поле ввода
       inputText.value = "";
       
+      // Переменные для вывода данных
       let name = data.name;
       let icon = data.weather[0].icon;
       let temp = Math.round(data.main.temp);

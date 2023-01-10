@@ -6,11 +6,6 @@
   border: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
 button {
   cursor: pointer;
 }
@@ -56,16 +51,6 @@ body {
   outline: none;
   padding: 7px 0 7px 10px;
   border-radius: 5px;
-  color: #7F669D;
-}
-.header__search-input::-moz-placeholder {
-  color: #7F669D;
-}
-.header__search-input:-ms-input-placeholder {
-  color: #7F669D;
-}
-.header__search-input::placeholder {
-  color: #7F669D;
 }
 .header__search-button {
   padding: 7px;
